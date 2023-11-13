@@ -893,15 +893,15 @@ dl, ol, ul {
 	margin-top: 30px;
 }
 
-.single-full-text{
+.single-full-text.portfolio{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.single-full-text h1{
+.single-full-text.portfolio h1{
 	font-weight: 800;
 }
-.single-full-text h1,p{
+.single-full-text.portfolio h1,p{
 	color: #000;
 	margin: 10px 10vw;
 	text-align: justify;
