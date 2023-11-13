@@ -893,6 +893,29 @@ dl, ol, ul {
 	margin-top: 30px;
 }
 
+.single-full-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.single-full-text h1{
+	font-weight: 800;
+}
+.single-full-text h1,p{
+	color: #000;
+	margin: 10px 10vw;
+	text-align: justify;
+}
+
+.cardImg{
+	display: flex;
+	align-items: center;
+}
+.cardImg img{
+	/* width: 200px; */
+	padding: 5px;
+}
+
 /**************************************
  * 09. Contact Section Style
  *************************************/
